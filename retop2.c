@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 int main() {
-    long long n, i;
+    int n, i;
     int *p;
 
-    scanf("%lld", &n);
+    scanf("%d", &n);
 
     p = (int *)malloc(n * sizeof(int));
     if (p == NULL) {
-        printf("Error al asignar memoria\n");
+        
         return 1;
     }
 
