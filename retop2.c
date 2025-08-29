@@ -3,9 +3,9 @@
 
 int main() {
     long long n, i;
-    int *p; 
+    int *p;
 
-    scanf("%ld", &n);
+    scanf("%lld", &n);
 
     p = (int *)malloc(n * sizeof(int));
     if (p == NULL) {
